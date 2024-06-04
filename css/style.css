@@ -4,11 +4,11 @@ html {
 }
 
 body {
-    max-width: 1080px;
-    height: 1655;
-    background-color: #fff;
-    
-    font-family: Hiragino Sans;    
+ max-width: 1080px;
+ height: 1655;
+ background-color: #fff;    
+ font-family: Hiragino Sans;    
+ color:#505050; 
 }
 
 header {
@@ -20,9 +20,9 @@ header {
 
 #shop_name {
  width: 173px; 
- color: #505050;
  font-size: 20px;
  font-weight: 250;
+ font-family: Hiragino Sans;    
  padding: 15px 0 0 0;
  margin: 0 0 0 59px; 
 }
@@ -37,7 +37,7 @@ header {
 #navi_menu {
  width: 73px;
  height: 33px
- color:#505050;
+ font-family: Hiragino Sans;    
  font-size: 20px;
  font-weight: 250;  
  padding: 16px 0 0 0;
@@ -47,28 +47,162 @@ header {
 #navi_about {
  width: 73px;
  height: 33px
- color: #505050;
+ font-family: Hiragino Sans;    
  font-size: 20px;
  font-weight: 250;  
  padding: 15px 0 0 0;
  margin: 0 0 0 25px;
 }
 
+/* main_visual */
+
+#main_visual {
+ position: relative;    
+ z-index: 10; 
+}
+
 #main_visual > img{
  width: 1080px;
- height: 500px;
- z-index: 10;
+ height: 500px; 
 }
 
 #main_visual > h1 {
- background-color: yellow;
+ position: absolute;
+ top: 55px;
+ left: 283px;
  width: 518px;
  height: 60px;
- font-family: Hiragino Sans;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 400;
  font-size: 38px;
- font-weight: 250; 
+ letter-spacing : 1.6px;
  z-index: 11;
 }
 
+/* MENU */
 
+#menu {
+ width: 1080px;
+}
+
+#menu > h1 {
+ width: 93px;
+ font-family: Hiragino Sans;    
+ font-size: 30px;
+ font-weight: 250;
+ padding-top: 62px; 
+ margin: 0 auto;
+}
+
+.border-span {
+ padding-bottom: 5px;
+ border-bottom: solid 3px #505050;
+}
+
+#menu_wrapper {
+ display: flex;
+ justify-content:left;
+ margin-bottom: 40px;
+ padding: 0;
+ margin-top: 10px;
+}
+
+.picture {
+ width: 300px;
+ height: 250px;
+ margin-top: 30px;
+}
+
+#menu_01 {
+ margin-left: 60px;
+}
+
+#menu_02 {
+ margin-left: 30px;
+}
+
+#menu_03 {
+ margin-left: 30px;
+}
+
+.content {
+ width: 300px;
+ margin-top: 35px;
+}
+
+.name {
+ width: 300px;
+ text-align: center;
+ font-family: Hiragino Sans;    
+ font-size: 20px;
+ font-weight: 400; 
+ margin-top: 30px;
+}
+
+.explain {
+ width: 300px;
+ text-align: center;
+ font-family: Hiragino Sans;    
+ font-size: 15px;
+ font-weight: 250; 
+ margin-top: 10px;
+}
+
+/* ABOUT */
+
+#about {
+ width:1080px;
+ height: 478px; 
+ background-color: rgba(0, 0, 0, 0.051);
+}
+
+#about > h1 {
+ width: 109px;
+ font-family: Hiragino Sans;    
+ font-size: 30px;
+ font-weight: 250; 
+ padding-top: 54px;
+ margin: 0 auto;
+}
+
+#about_wrapper {
+ display: flex;
+ justify-content: space-around;
+}
+
+#wrapper > h3 {
+ width:471px;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 400;  
+ font-size: 20px;
+ margin-left: 28px;
+ letter-spacing: 1.8px;
+}
+
+#wrapper > h3:nth-child(1) {
+ margin-top: 63px; 
+}
+
+#wrapper > h3:nth-child(2) {
+ margin-top: 10px; 
+}
+   
+#wrapper > h6 {
+ width:471px;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 250;  
+ font-size: 18px; 
+ margin-left: 28px;
+ margin-top: 30px; 
+}
+
+#wrapper > h3 > h6:nth-child(2) {
+ margin-top: 2px; 
+}
+
+
+#about_wrapper > img {
+ width: 450px;
+ height: 300px;
+}
 

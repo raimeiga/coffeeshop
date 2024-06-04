@@ -9,6 +9,19 @@
         <link rel="stylesheet" href="css/destyle.css"> 
         <!-- スタイルシート　-->
         <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Adobe Fonts読み込み -->
+        <script>
+          (function(d) {
+            var config = {
+              kitId: 'jlj1qzl',
+              scriptTimeout: 3000,
+              async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
+
     </head>
     </html>
 
@@ -25,6 +38,55 @@
           <section id="main_visual">            
             <h1>お好みのブレンドをお手軽に</h1>
             <img src="/images/FV.png" alt="">
+          </section>
+
+          <section id="menu">
+            <h1>M<span class="border-span">EN</span>U</h1> 
+            <div id="menu_wrapper">
+              <div id="menu_01">
+                <img class="picture" src="/images/menu01.png" alt="">
+                <div class="content">
+                  <h3 class="name">カフェラテ（ICE・HOT）</h3>
+                  <p class="explain">お好みのブレンドコーヒーと</p>
+                  <p class="explain">厳選したミルクのカフェラテ</p>
+                </div>
+              </div>
+
+              <div id="menu_02">
+                 <img class="picture" src="/images/menu02.png" alt="">
+                 <div class="content">
+                   <h3 class="name">コーヒー（ICE・HOT）</h3>
+                   <p class="explain">お好みの味をブレンドした</p>
+                  <p class="explain">コーヒー本来の味を味わえる</p>
+                 </div>
+              </div>
+
+              <div id="menu_03" >
+                 <img  class="picture" src="/images/menu03.png" alt="">
+                 <div class="content">
+                   <h3 class="name">カップケーキ（各種）</h3>
+                   <p class="explain">コーヒーのお供に</p>
+                   <p class="explain">日替わり常時５種類</p>
+                 </div>
+              </div>          
+            </div>
+          </section>
+
+          <section id="about">
+
+            <h1>A<span class="border-span">BOU</span>T</h1>            
+            <div id="about_wrapper">
+              <div id="wrapper">
+                <h3>老舗の味をテイクアウトで楽しめる</h3>
+                <h3>新しいカフェスタイル</h3>
+                <p>知る人ぞ知る東京銀座の老舗カフェが提供する、移動販売<br>
+                のテイクアウトコーヒーです。<br>
+                「いつもの」がお家でオフィスでお気軽に楽しめます。</h6>
+                <a href=""></a>
+              </div>
+              <img src="/images/about.png" alt="">
+            </div>
+            
           </section>
 
         </main>
