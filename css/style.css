@@ -167,7 +167,7 @@ header {
 
 #about_wrapper {
  display: flex;
- justify-content: space-around;
+ justify-content: left;
 }
 
 #wrapper > h3 {
@@ -175,8 +175,8 @@ header {
  font-family: "source-han-sans-vf", sans-serif;
  font-variation-settings: "wght" 400;  
  font-size: 20px;
- margin-left: 28px;
- letter-spacing: 1.8px;
+ margin-left: 60px;
+ letter-spacing: 2px;
 }
 
 #wrapper > h3:nth-child(1) {
@@ -185,24 +185,30 @@ header {
 
 #wrapper > h3:nth-child(2) {
  margin-top: 10px; 
+ margin-bottom: 30px;
 }
-   
-#wrapper > h6 {
+
+#detail {
+ margin-top: 32px; 
+ margin-left: 32px;
+}
+
+#detail > p {
  width:471px;
  font-family: "source-han-sans-vf", sans-serif;
  font-variation-settings: "wght" 250;  
  font-size: 18px; 
  margin-left: 28px;
- margin-top: 30px; 
+ margin-right: 0;
+ margin-bottom: 13.5px; 
+ letter-spacing: 0.4px;
 }
-
-#wrapper > h3 > h6:nth-child(2) {
- margin-top: 2px; 
-}
-
 
 #about_wrapper > img {
  width: 450px;
  height: 300px;
+ margin-top: 40px; 
+ margin-left: 38px;
 }
+
 
