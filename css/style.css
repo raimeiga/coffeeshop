@@ -5,27 +5,29 @@ html {
 
 body {
  max-width: 1080px;
+ min-width: 376px;
  height: 1655;
  background-color: #fff;    
- font-family: Hiragino Sans;    
+ font-family: Hiragino Sans,hiragino-kaku-gothic-pron, sans-serif;
  color:#505050; 
 }
 
 header {
+ width: 1080px;
  height: 50px;
  background-color: yellow;
  display: flex;
  justify-content: space-between;
 }
 
-#shop_name {
+/* #shop_name {
  width: 173px; 
  font-size: 20px;
  font-weight: 250;
  font-family: Hiragino Sans;    
  padding: 15px 0 0 0;
  margin: 0 0 0 59px; 
-}
+} */
 
 #navi {
  width: 200px; 
@@ -61,15 +63,15 @@ header {
  z-index: 10; 
 }
 
-#main_visual > img{
+#fv-pc {
  width: 1080px;
  height: 500px; 
 }
 
 #main_visual > h1 {
  position: absolute;
- top: 55px;
- left: 283px;
+ top: 12%;
+ left: 26%;
  width: 518px;
  height: 60px;
  font-family: "source-han-sans-vf", sans-serif;
@@ -211,4 +213,23 @@ header {
  margin-left: 38px;
 }
 
+footer {
+ display: flex;
+ align-items: center;
+ width: 1080px;
+ height: 92px;
+ background-color: #707070; 
+ 
+}
+
+footer > p {
+ width: 500px;
+ text-align: center;
+ color: #fff;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 250;  
+ font-size: 20px;
+ margin-left: auto;
+ margin-right: auto;
+}
 
