@@ -1,14 +1,14 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
+/* min-width: 320px;まで */
 
-body {
- max-width: 375px;
+body { 
  background-color: #fff;    
  font-family: "Hiragino Sans","hiragino-kaku-gothic-pron", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
  color:#505050; 
 }
 
 header {
- width: 375px;
+ width: auto;
  height: 50px;
  background-color: yellow;   
  display: flex;
@@ -16,7 +16,7 @@ header {
 }
 
 #shop_name {
- width: 180px; 
+ width: auto; 
  font-size: 20px;
  font-weight: 250;
  padding: 0px 0 0 0;
@@ -45,19 +45,18 @@ header {
  display: none;
 } 
 
-   #main_visual > h2 {
-    position: absolute;
-    top: 8%;
-    left: 7%;
-    width: 325px;
-    text-align: center;
-    font-family: "source-han-sans-vf", sans-serif;
-    font-variation-settings: "wght" 300;
-    letter-spacing : 0.01em;
-    line-height: 1.5;
-    font-size: 35px;    
-    z-index: 11;
-   }
+#main_visual > h2 {
+ position: absolute; 
+ width: 325px;
+ margin: 44px 27px 0px;
+ text-align: center;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 300;
+ letter-spacing : 0.1px;
+ line-height: 1.5;
+ font-size: 35px;    
+ z-index: 11;
+}
 
 /* menu */
    #menu {
@@ -127,8 +126,7 @@ header {
 
 /* ABOUT */
    #about {
-    width: 375px;
-    height: 474px; 
+    width: 375px;   
     background-color: rgba(0, 0, 0, 0.051);
    }
    #about_wrapper {

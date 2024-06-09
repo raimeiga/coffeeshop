@@ -40,9 +40,14 @@
         <main>
           <section id="main_visual">            
             <h2>お好みのブレンドをお手軽に</h2>
-            <div>        
-              <img id="fv-pc" src="/images/FV.png" alt="">
-              <img id="fv-sp" src="/images/FV-sp.png" alt="">
+            <div id="top-picture-wrap">        
+              <!-- <img id="fv-pc" src="/images/FV.png" alt="">
+              <img id="fv-sp" src="/images/FV-sp.png" alt=""> -->
+            <!-- ピクタグを使用 -->
+              <picture>
+                <source media="(max-width: 767px)" srcset="/images/FV-sp.png">
+                <img id="fv-pic" src="/images/FV.png" alt="">
+              </picture>
             </div>
           </section>
 
@@ -51,9 +56,14 @@
             <div id="menu_wrapper">
               <div id="menu_01">
                 <div class="picture-wrap">
-                  <img class="picture" src="/images/menu01.png" alt="">
-                  <img class="picture-sp" src="/images/menu01-sp.png" alt="">
-                </div>
+                  <!-- <img class="picture" src="/images/menu01.png" alt="">
+                  <img class="picture-sp" src="/images/menu01-sp.png" alt=""> -->
+                <!-- ピクタグを使用 -->
+                <picture>
+                  <source media="(max-width: 767px)" srcset="/images/menu01-sp.png">
+                  <img src="/images/menu01.png" alt="top image">
+                </picture>
+                </div>             
                 <div class="content">
                   <p class="name">カフェラテ（ICE・HOT）</p>
                   <p class="explain">お好みのブレンドコーヒーと<br>
@@ -64,9 +74,17 @@
 
               <div id="menu_02">
                 <div class="picture-wrap">
-                 <img class="picture" src="/images/menu02.png" alt="">
-                 <img class="picture-sp" src="/images/menu02-sp.png" alt="">
+                 <!-- <img class="picture" src="/images/menu02.png" alt="">
+                 <img class="picture-sp" src="/images/menu02-sp.png" alt=""> -->
+                 <!-- ピクタグを使用 -->
+                 <picture>
+                  <source media="(max-width: 767px)" srcset="/images/menu02-sp.png">
+                  <img src="/images/menu02.png" alt="top image">
+                </picture>
                 </div>
+                
+                
+
                 <div class="content">
                    <p class="name">コーヒー（ICE・HOT）</p>
                    <p class="explain">お好みの味をブレンドした<br>
@@ -77,9 +95,15 @@
 
               <div id="menu_03">
                 <div class="picture-wrap">
-                  <img class="picture" src="/images/menu03.png" alt="">
-                  <img class="picture-sp" src="/images/menu03-sp.png" alt="">
+                  <!-- <img class="picture" src="/images/menu03.png" alt="">
+                  <img class="picture-sp" src="/images/menu03-sp.png" alt=""> -->
+                  <!-- ピクタグを使用 -->
+                <picture>
+                  <source media="(max-width: 767px)" srcset="/images/menu03-sp.png">
+                  <img src="/images/menu03.png" alt="top image">
+                </picture>
                 </div>
+                
                 <div class="content">
                    <p class="name">カップケーキ（各種）</p>
                    <p class="explain">コーヒーのお供に<br>
@@ -95,7 +119,7 @@
             <div id="about_wrapper">
               <div id="text-wrapper">
                 <div id="concept">
-                  <p>老舗の味をテイクアウトで楽しめる
+                  <p>老舗の味をテイクアウトで楽しめる<br>
                   新しいカフェスタイル</p>
                   <!-- ↑line-height: 33pxで行間調整 -->
                 </div>
@@ -110,8 +134,13 @@
                 </div>        
               </div>  
               <div id="img-wrapper">
-               <img id="about-img" src="/images/about.png" alt="">
-               <img id="about-img-sp" src="/images/about-sp.png" alt="">
+               <!-- <img id="about-img" src="/images/about.png" alt="">
+               <img id="about-img-sp" src="/images/about-sp.png" alt=""> -->
+               <!-- ピクタグを使用 -->
+               <picture>
+                <source media="(max-width: 767px)" srcset="/images/about-sp.png">
+                <img src="/images/about.png" alt="top image">
+              </picture>
               </div>
             </div>            
           </section>
